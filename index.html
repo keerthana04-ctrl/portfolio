@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keerthana | Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    line-height: 1.7;
+}
+
+header {
+    background: #111c32;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h2 {
+    color: #38bdf8;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+}
+
+.hero span {
+    color: #38bdf8;
+}
+
+.hero p {
+    margin: 15px auto;
+    max-width: 600px;
+    color: #cbd5e1;
+}
+
+.btn {
+    display: inline-block;
+    background: #38bdf8;
+    color: #0f172a;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+h2.section-title {
+    color: #38bdf8;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.about, .skills, .projects, .contact {
+    background: #17243b;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.about p, .contact p {
+    text-align: center;
+    color: #cbd5e1;
+    max-width: 750px;
+    margin: auto;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-list span {
+    background: #263750;
+    padding: 12px 25px;
+    border-radius: 10px;
+    color: #38bdf8;
+}
+
+.project-card {
+    background: #263750;
+    padding: 25px;
+    margin: 15px auto;
+    border-radius: 12px;
+    max-width: 650px;
+}
+
+.project-card h3 {
+    color: #38bdf8;
+}
+
+.project-card p {
+    color: #cbd5e1;
+}
+
+.contact a {
+    color: #38bdf8;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #94a3b8;
+}
+
+@media(max-width:600px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+    header {
+        justify-content: center;
+        gap: 12px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>Keerthana.</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero" id="home">
+    <h1>Hi, I'm <span>Keerthana</span></h1>
+    <h2>Aspiring Data Analyst & AI Enthusiast</h2>
+    <p>
+        I'm a college student passionate about technology,
+        data analytics and artificial intelligence.
+        I'm always eager to learn new skills and build projects.
+    </p>
+    <a class="btn" href="#about">Explore My Portfolio</a>
+</div>
+
+<section class="about" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+        I am a student at Dayananda Sagar University, Bengaluru.
+        I am interested in Data Analytics, Python, SQL and
+        Artificial Intelligence. I enjoy learning new technologies
+        and improving my problem-solving skills.
+    </p>
+</section>
+
+<section class="skills" id="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skill-list">
+        <span>Python</span>
+        <span>SQL</span>
+        <span>Java</span>
+        <span>Excel</span>
+        <span>HTML</span>
+        <span>Data Structures</span>
+        <span>DBMS</span>
+        <span>AI & ML</span>
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    <h2 class="section-title">My Projects</h2>
+
+    <div class="project-card">
+        <h3>ReVolt AI – Mini Project</h3>
+        <p>
+            An academic mini project developed as part of my
+            learning journey in Artificial Intelligence.
+        </p>
+        <p><strong>Technologies:</strong> Add your project technologies here.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>More Projects Coming Soon</h3>
+        <p>
+            I am continuously learning and working on new
+            projects to improve my technical skills.
+        </p>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p>
+        Interested in connecting or discussing opportunities?
+        Feel free to reach out!
+    </p>
+    <p>Email: Add your email address here</p>
+    <p>
+        GitHub:
+        <a href="https://github.com/keerthana04-ctrl" target="_blank">
+            Visit My GitHub
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Keerthana | Personal Portfolio</p>
+</footer>
+
+</body>
+</html>
